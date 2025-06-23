@@ -78,5 +78,5 @@ MIT License. See [LICENSE](LICENSE) for details.
 ## Contact
 Connect with me:
 - GitHub: [mhmdbrkv](https://github.com/mhmdbrkv)
-- Email: [your-email@example.com]
-- Portfolio: [your-deployed-URL]
+- Email: [barakamohamed946@gmail.com]
+- Portfolio: [mhmdbrkv.github](https://mhmdbrkv.github.io/portfolio)
