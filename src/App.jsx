@@ -48,7 +48,7 @@ function App() {
       title: "Real-Time Study Rooms",
       subtitle: "Scalable Real-Time Messaging",
       description:
-        "Built a real-time study room platform using WebSocket and Node.js.",
+        "Designed a real-time study room system to enable remote collaboration with instant updates. Implemented Socket.IO over WebSockets for message streaming, room management, and user presence tracking — optimized for low latency and scalability.",
       tech: ["Socket.io", "Node.js", "WebSockets", "HTML", "CSS", "JavaScript"],
       highlight: "⚡ Creative Solution",
       category: "Real-Time Systems",
@@ -60,7 +60,7 @@ function App() {
       title: "Learning Gate",
       subtitle: "Award-Winning E-Learning Platform",
       description:
-        "Led a team of 8 to create an e-learning platform with real-time attendance and interactive study rooms, powered by WebSocket and React.",
+        "Led a full-stack team to build a scalable e-learning platform with real-time classrooms. Engineered backend using Node.js & MongoDB, integrated JWT-based authentication, live attendance tracking, and interactive rooms via WebSockets. Deployed on cloud infrastructure for continuous availability.",
       tech: [
         "Node.js",
         "React.js",
@@ -79,7 +79,7 @@ function App() {
       title: "Event Management APIs",
       subtitle: "Enterprise-Grade Booking Platform",
       description:
-        "Developed scalable REST APIs for event workflows, with Redis caching, JWT authentication, and 95%+ test coverage.",
+        "Built a production-grade event management API system, handling events, tickets, and payments. Solved caching bottlenecks using Redis, enforced role-based access control with JWT, and achieved 95%+ unit/integration test coverage using Supertest and Jest. Follows SOLID design patterns and clean architecture.",
       tech: ["TypeScript", "Express.js", "Prisma", "Redis", "JWT", "Supertest"],
       highlight: "🚀 2025 Production",
       category: "System Architecture",
@@ -91,7 +91,7 @@ function App() {
       title: "E-Commerce Backend",
       subtitle: "Secure & Scalable APIs",
       description:
-        "Created a production-ready e-commerce backend with advanced security, caching, and API documentation, optimized for high traffic.",
+        "Architected a modular e-commerce backend handling product listings, carts, orders, and secure payments. Applied layered architecture, optimized performance with Redis caching, and added Swagger API docs. Emphasized security (JWT auth, input validation) and scalability for growing traffic demands.",
       tech: ["Node.js", "MongoDB", "Redis", "JWT", "API Documentation"],
       highlight: "💼 Real-Life Problem Solution",
       category: "Backend Engineering",
@@ -321,10 +321,19 @@ function App() {
             </div>
 
             <p className="hero-description">
-              I craft scalable backend systems for seamless user experiences,
-              solving complex challenges with{" "}
-              <span className="highlight-blue">400+ algorithms mastered</span>{" "}
-              and <span className="highlight-purple">proven leadership</span>.
+              Backend Developer focused on building{" "}
+              <strong>robust systems</strong> and solving
+              <strong> real-world problems</strong> through APIs, architecture,
+              and automation.
+              <br />
+              Over <span className="highlight-blue">
+                400+ problems solved
+              </span>{" "}
+              &{" "}
+              <span className="highlight-purple">
+                production-level backend systems shipped
+              </span>
+              .
             </p>
 
             <div className="achievements-grid">
@@ -534,9 +543,11 @@ function App() {
           >
             <h2 className="section-title">Let’s Build Something Great</h2>
             <p className="contact-description">
-              Passionate about scalable backend solutions? Connect with me to
-              turn your ideas into reality with robust, user-focused systems.
+              Let’s build scalable systems or debug hard problems together. If
+              you're hiring or collaborating — I’m open to backend-focused roles
+              and problem-solving challenges.
             </p>
+
             <div className="contact-buttons">
               {socialLinks.map((link, index) => (
                 <a
